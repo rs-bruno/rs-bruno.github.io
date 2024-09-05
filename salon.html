@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html lang="es-UY">
+<head>
+	<title>Pedro Recale Estilista</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="Keywords" content="Pedro, Recalde, Estilista, Peluquería, Salon, Peinados, Cortes, Pelo, Capacitación, Belleza">
+	<link rel="icon" href="rsc/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="rsc/estilo.css">
+	<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Cinzel Decorative'>
+	<script src="https://kit.fontawesome.com/e25efd41b7.js" crossorigin="anonymous"></script>
+	
+	<!-- Control de menú e imagenes-->
+	<script src="rsc/controles.js"></script>
+</head>
+<body>
+
+<div id="galeria" onclick="cerrarImagen()"></div>
+<div id="btnCerrar" onclick="cerrarImagen()"><i class="fas fa-times-circle"></i></div>
+<img class="imagenAbierta" id="img1" src="rsc/img/sln1.jpg">
+<img class="imagenAbierta" id="img2" src="rsc/img/sln2.jpg">
+<img class="imagenAbierta" id="img3" src="rsc/img/sln3.jpg">
+<img class="imagenAbierta" id="img4" src="rsc/img/sln4.jpg">
+<img class="imagenAbierta" id="img5" src="rsc/img/sln5.jpg">
+<img class="imagenAbierta" id="img6" src="rsc/img/sln6.jpg">
+<img class="imagenAbierta" id="img7" src="rsc/img/sln7.jpg">
+
+
+<ul id="barranav">
+		<li id="menuBtn" onclick="menuBtn()"><i class='fas fa-bars' style='font-size:0.5cm;'></i></li>
+	<div id="contIcos">
+		<li class="inlineBlockLi"><a class="icono" href="https://www.facebook.com/pedro.recaldecorrea"><i class='fab fa-facebook-square' style='font-size:0.5cm'></i></a></li>
+		<li class="inlineBlockLi"><a class="icono" href="https://www.instagram.com/pedrorecaldeestilisa/"><i class='fab fa-instagram' style='font-size:0.5cm'></i></a></li>
+	</div>
+	<div id="contElems">
+		<li><a href="index.html">Inicio</a></li>
+		<li><a id="selected" href="salon.html">Salón</a></li>
+		<li><a href="escuela.html">Escuela</a></li>
+		<li><a href="contacto.html">Contacto</a></li>
+	</div>
+</ul>
+<div class="sec">
+	<h1>Salón</h1>
+	<br>
+	<h4>Servicios para el cabello</h4>
+	<p style="text-align: justify;">
+		Espacio pensado para la mejor atención y comodidad del cliente. Atención a damas, caballeros y niños.
+		Servicio de corte, peinado, coloración y tratamientos para su cabello. Contando con las medidas de
+		seguriddad necesarias ante situación de emergencia sanitaria.
+	</p>
+	<br>
+	<h4>Ubicación</h4>
+	<p>Avenida Lavalleja  179 - Mercedes, Uruguay</p>
+	<br>
+	<h4>Horarios</h4>
+	<p>Lunes a Viernes: 9:00 a 12:00 y 14:00 a 19:00 hs.</p>
+	<p>Sábado: 9:00 a 13:30 hs.</p>
+	<br>
+	<h4>Reserva de turnos</h4>
+	<p>Comunicarse al 091716613 en horario de atención.</p>
+	<div class="contenedorImagenes">
+	  <img class="imagen" src="rsc/img/sln7.jpg" onclick="abrirImagen('img7')">
+	  <img class="imagen" src="rsc/img/sln5.jpg" onclick="abrirImagen('img5')">
+	  <img class="imagen" src="rsc/img/sln4.jpg" onclick="abrirImagen('img4')">
+	  <img class="imagen" src="rsc/img/sln6.jpg" onclick="abrirImagen('img6')">
+	  <img class="imagen" src="rsc/img/sln1.jpg" onclick="abrirImagen('img1')">
+	  <img class="imagen" src="rsc/img/sln2.jpg" onclick="abrirImagen('img2')">
+	  <img class="imagen" src="rsc/img/sln3.jpg" onclick="abrirImagen('img3')">
+	</div>
+</div>
+<div id ="footer">
+	<div class="footerColumna">
+		<h4>Ubicación</h4>
+		<p>Avenida Lavalleja  179 - Mercedes, Uruguay</p>
+	</div>
+	<div class="divisor">
+		<br>
+	</div>
+	<div class="footerColumna">
+		<h4>Horarios</h4>
+		<p>Lunes a Viernes: 9:00 a 12:00 y 14:00 a 19:00 hs.</p>
+		<p>Sábado: 9:00 a 13:30 hs.</p>
+	</div>
+	<div class="divisor">
+		<br>
+	</div>
+	<div class="footerColumna">
+		<h4>Reserva de turnos</h4>
+		<p>Comunicarse al 091716613 en horario de atención.</p>
+	</div>
+</div>
+</body>
+</html>
